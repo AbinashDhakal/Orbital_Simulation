@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" standalone = "yes"?>
+<TimelineLine_Prefs STK_version = "12.9.0">
+    <Views Type = "Content">
+        <ContentView Name = "Scenario Availability">
+            <Row ClassName = "Scenario" ComponentName = "AvailabilityIntervals" DisplayName = "Link_Budget AvailabilityIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/Link_Budget" Type = "IntervalList">
+                <Interval Name = "Link_Budget AvailabilityIntervals" StartTime = "30 Jul 2024 11:00:00.000" StopTime = "31 Jul 2024 11:00:00.000" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Satellite-SSO-Transmitter-Transmitter1-To-Facility-Facility1 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/Link_Budget/Satellite/SSO/Transmitter/Transmitter1;/Application/STK/Scenario/Link_Budget/Facility/Facility1" Type = "IntervalList">
+                <Interval Name = "Satellite-SSO-Transmitter-Transmitter1-To-Facility-Facility1 AccessIntervals" StartTime = "30 Jul 2024 16:10:35.703" StopTime = "30 Jul 2024 16:18:10.290" />
+                <Interval Name = "Satellite-SSO-Transmitter-Transmitter1-To-Facility-Facility1 AccessIntervals" StartTime = "30 Jul 2024 17:41:26.888" StopTime = "30 Jul 2024 17:51:26.900" />
+                <Interval Name = "Satellite-SSO-Transmitter-Transmitter1-To-Facility-Facility1 AccessIntervals" StartTime = "31 Jul 2024 04:05:22.701" StopTime = "31 Jul 2024 04:15:11.738" />
+                <Interval Name = "Satellite-SSO-Transmitter-Transmitter1-To-Facility-Facility1 AccessIntervals" StartTime = "31 Jul 2024 05:38:08.053" StopTime = "31 Jul 2024 05:46:22.380" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Satellite-SSO-Transmitter-Transmitter1-To-Facility-Facility1-Receiver-Receiver1 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/Link_Budget/Satellite/SSO/Transmitter/Transmitter1;/Application/STK/Scenario/Link_Budget/Facility/Facility1/Receiver/Receiver1" Type = "IntervalList">
+                <Interval Name = "Satellite-SSO-Transmitter-Transmitter1-To-Facility-Facility1-Receiver-Receiver1 AccessIntervals" StartTime = "30 Jul 2024 16:10:35.703" StopTime = "30 Jul 2024 16:18:10.290" />
+                <Interval Name = "Satellite-SSO-Transmitter-Transmitter1-To-Facility-Facility1-Receiver-Receiver1 AccessIntervals" StartTime = "30 Jul 2024 17:41:26.888" StopTime = "30 Jul 2024 17:51:26.900" />
+                <Interval Name = "Satellite-SSO-Transmitter-Transmitter1-To-Facility-Facility1-Receiver-Receiver1 AccessIntervals" StartTime = "31 Jul 2024 04:05:22.701" StopTime = "31 Jul 2024 04:15:11.738" />
+                <Interval Name = "Satellite-SSO-Transmitter-Transmitter1-To-Facility-Facility1-Receiver-Receiver1 AccessIntervals" StartTime = "31 Jul 2024 05:38:08.053" StopTime = "31 Jul 2024 05:46:22.380" />
+            </Row>
+        </ContentView>
+    </Views>
+    <Views Type = "Time">
+        <TimeView FullViewRulerStartTime = "0.000000" FullViewRulerStopTime = "0.000000" GlobalIntervalComp = "AnalysisInterval" GlobalIntervalCompPath = "/Application/STK/Scenario/Link_Budget" GlobalStartOffset = "0.000000" GlobalStartTime = "30 Jul 2024 11:00:00.000" GlobalStopOffset = "0.000000" GlobalStopTime = "31 Jul 2024 11:00:00.000" MaxFullViewTime = "0.000000" MinFullViewTime = "0.000000" Name = "Scenario Analysis Period" ViewportStartTime = "0.000000" ViewportStopTime = "0.000000" />
+    </Views>
+</TimelineLine_Prefs>
